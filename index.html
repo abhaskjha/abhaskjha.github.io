@@ -27,6 +27,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -166,7 +167,7 @@
 
         <section class="section" id="writing">
           <div class="section-heading">
-            <p class="section-label">Recent Writing</p>
+            <p class="section-label">Featured Essays</p>
             <h2>Selected essays on AI, government, and India</h2>
           </div>
           <div class="essay-grid">
@@ -249,6 +250,55 @@
               </p>
             </a>
           </div>
+        </section>
+
+        <section class="section" id="latest-feeds">
+          <div class="section-heading">
+            <p class="section-label">Latest From Newsletters</p>
+            <h2>Automatically updated from The Urban Stack and India Decoded</h2>
+            <p class="section-note">
+              New essays from Substack and LinkedIn are pulled into this page automatically.
+            </p>
+          </div>
+          <div class="feed-grid">
+            <section class="feed-panel" aria-labelledby="substack-feed-title">
+              <div class="feed-panel-header">
+                <div>
+                  <p class="panel-label">Substack</p>
+                  <h3 id="substack-feed-title">The Urban Stack</h3>
+                </div>
+                <a
+                  class="feed-link"
+                  href="https://abhaskjha.substack.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Open archive</a
+                >
+              </div>
+              <ul class="feed-list" id="substack-feed-list">
+                <li class="feed-placeholder">Loading latest essays...</li>
+              </ul>
+            </section>
+            <section class="feed-panel" aria-labelledby="india-decoded-feed-title">
+              <div class="feed-panel-header">
+                <div>
+                  <p class="panel-label">LinkedIn Newsletter</p>
+                  <h3 id="india-decoded-feed-title">India Decoded</h3>
+                </div>
+                <a
+                  class="feed-link"
+                  href="https://www.linkedin.com/newsletters/india-decoded-7226815406265577473/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >Open archive</a
+                >
+              </div>
+              <ul class="feed-list" id="india-decoded-feed-list">
+                <li class="feed-placeholder">Loading latest essays...</li>
+              </ul>
+            </section>
+          </div>
+          <p class="feed-meta" id="feed-updated-at"></p>
         </section>
 
         <section class="section links-band">
