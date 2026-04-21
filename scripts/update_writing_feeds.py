@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import sys
+import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -26,6 +27,10 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36"
     )
 }
+
+
+def warn(message: str) -> None:
+    print(message, file=sys.stderr)
 
 
 def fetch(url: str) -> str:
@@ -110,39 +115,83 @@ def fetch_linkedin_items(limit: int = 6) -> list[dict[str, str]]:
     newsletter_html = fetch(LINKEDIN_NEWSLETTER)
     items = []
     for link in unique_linkedin_links(newsletter_html, limit=limit):
-        article_html = fetch(link)
-        metadata = extract_article_json_ld(article_html)
-        title_match = re.search(r"<title>(.*?)</title>", article_html, re.DOTALL)
-        title = (
-            metadata.get("name")
-            or metadata.get("headline")
-            or strip_html(title_match.group(1) if title_match else link)
-        )
-        title = re.sub(r"\s*\|\s*LinkedIn\s*$", "", title).strip()
-        items.append(
-            {
-                "title": title,
-                "url": link,
-                "date": metadata.get("datePublished", ""),
-                "summary": "",
-            }
-        )
+        try:
+            article_html = fetch(link)
+            metadata = extract_article_json_ld(article_html)
+            title_match = re.search(r"<title>(.*?)</title>", article_html, re.DOTALL)
+            title = (
+                metadata.get("name")
+                or metadata.get("headline")
+                or strip_html(title_match.group(1) if title_match else link)
+            )
+            title = re.sub(r"\s*\|\s*LinkedIn\s*$", "", title).strip()
+            items.append(
+                {
+                    "title": title,
+                    "url": link,
+                    "date": metadata.get("datePublished", ""),
+                    "summary": "",
+                }
+            )
+        except Exception as exc:  # noqa: BLE001
+            warn(f"Warning: skipping LinkedIn article {link}: {exc}")
     return items
 
 
+def load_existing_data() -> dict:
+    if not DATA_PATH.exists():
+        return {}
+    try:
+        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def fallback_items(existing_data: dict, key: str) -> list[dict[str, str]]:
+    return existing_data.get("sources", {}).get(key, {}).get("items", [])
+
+
+def safe_items(label: str, loader, existing_items: list[dict[str, str]]) -> list[dict[str, str]]:
+    try:
+        items = loader()
+        if items:
+            return items
+        if existing_items:
+            warn(f"Warning: {label} returned no items. Reusing previous data.")
+            return existing_items
+        return []
+    except Exception as exc:  # noqa: BLE001
+        if existing_items:
+            warn(f"Warning: {label} refresh failed ({exc}). Reusing previous data.")
+            return existing_items
+        raise
+
+
 def main() -> int:
+    existing_data = load_existing_data()
+    substack_items = safe_items(
+        "Substack",
+        fetch_substack_items,
+        fallback_items(existing_data, "substack"),
+    )
+    linkedin_items = safe_items(
+        "India Decoded",
+        fetch_linkedin_items,
+        fallback_items(existing_data, "india_decoded"),
+    )
+
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "sources": {
             "substack": {
                 "title": "The Urban Stack",
                 "url": SUBSTACK_ARCHIVE,
-                "items": fetch_substack_items(),
+                "items": substack_items,
             },
             "india_decoded": {
                 "title": "India Decoded",
                 "url": LINKEDIN_NEWSLETTER,
-                "items": fetch_linkedin_items(),
+                "items": linkedin_items,
             },
         },
     }
