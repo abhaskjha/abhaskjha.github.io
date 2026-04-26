@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-04-26T11:56:06.528574Z",
+  "updated_at": "2026-04-26T20:21:24.777206Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Who Decides If Your Crop Died",
+          "url": "https://abhaskjha.substack.com/p/who-decides-if-your-crop-died",
+          "date": "2026-04-24T04:00:55Z",
+          "summary": "On the politics of algorithmic truth at the bottom of the income distribution"
+        },
         {
           "title": "Algorithmic Austerity: When Algorithms Mistake Poverty for Fraud",
           "url": "https://abhaskjha.substack.com/p/algorithmic-austerity-when-algorithms",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/legible-before-secure-how-digital",
           "date": "2026-03-14T08:27:56Z",
           "summary": "When the Tax Collector Arrives Before the Consumer Protection Does"
-        },
-        {
-          "title": "The Invisible Ledger: Why 2026 is the Year Blockchain Became Boring (and Essential)",
-          "url": "https://abhaskjha.substack.com/p/the-invisible-ledger-why-2026-is",
-          "date": "2026-02-27T04:01:05Z",
-          "summary": "From Proof of Concept (PoC) to Institutional\u2011Grade Infrastructure"
         }
       ]
     },
