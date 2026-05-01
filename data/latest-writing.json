@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-05-01T12:06:38.669295Z",
+  "updated_at": "2026-05-01T16:16:48.100740Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "The Model With No Middle",
+          "url": "https://abhaskjha.substack.com/p/the-model-with-no-middle",
+          "date": "2026-05-01T04:00:45Z",
+          "summary": "Corridors move goods. Arthur Lewis forgot the towns."
+        },
         {
           "title": "Who Decides If Your Crop Died",
           "url": "https://abhaskjha.substack.com/p/who-decides-if-your-crop-died",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/what-thirty-years-in-four-cities",
           "date": "2026-03-30T08:06:42Z",
           "summary": "I have lived in Delhi, Washington DC, Singapore, and now Nairobi over the past thirty years."
-        },
-        {
-          "title": "Legible Before Secure: How Digital Payments Can Formalize Poverty",
-          "url": "https://abhaskjha.substack.com/p/legible-before-secure-how-digital",
-          "date": "2026-03-14T08:27:56Z",
-          "summary": "When the Tax Collector Arrives Before the Consumer Protection Does"
         }
       ]
     },
