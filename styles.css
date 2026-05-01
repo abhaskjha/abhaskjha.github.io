@@ -245,6 +245,87 @@ img {
   background: rgba(255, 255, 255, 0.88);
 }
 
+.subscribe-band {
+  margin-top: 24px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.74), rgba(247, 241, 233, 0.92)),
+    var(--paper);
+  box-shadow: 0 18px 48px rgba(15, 37, 55, 0.08);
+}
+
+.subscribe-band-header {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.subscribe-band-header h2 {
+  margin: 0;
+  font-family: "Newsreader", serif;
+  font-size: clamp(1.8rem, 3vw, 2.5rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+}
+
+.subscribe-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.subscribe-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.subscribe-card-primary {
+  background:
+    linear-gradient(180deg, rgba(18, 52, 74, 0.98), rgba(11, 37, 54, 0.94)),
+    var(--blue);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #f8f5ef;
+}
+
+.subscribe-label {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.subscribe-card-primary .subscribe-label {
+  color: rgba(248, 245, 239, 0.7);
+}
+
+.subscribe-card h3 {
+  margin: 10px 0 0;
+  font-family: "Newsreader", serif;
+  font-size: 1.8rem;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.subscribe-card p:last-of-type {
+  margin-bottom: 18px;
+  color: var(--ink-soft);
+  line-height: 1.62;
+}
+
+.subscribe-card-primary p:last-of-type {
+  color: rgba(248, 245, 239, 0.78);
+}
+
+.subscribe-card .button {
+  width: 100%;
+}
+
 .hero-facts {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -684,7 +765,8 @@ img {
   .card-grid,
   .essay-grid,
   .link-cards,
-  .feed-grid {
+  .feed-grid,
+  .subscribe-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -716,6 +798,7 @@ img {
   .essay-grid,
   .link-cards,
   .feed-grid,
+  .subscribe-grid,
   .publication-item,
   .site-footer {
     grid-template-columns: 1fr;
