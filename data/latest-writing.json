@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-05-07T13:02:57.949931Z",
+  "updated_at": "2026-05-08T07:45:53.809166Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Why Your City Government Is the Wrong Size",
+          "url": "https://abhaskjha.substack.com/p/why-your-city-government-is-the-wrong",
+          "date": "2026-05-08T04:01:11Z",
+          "summary": "In 2007, Denmark merged 271 municipalities into 98."
+        },
         {
           "title": "The Model With No Middle",
           "url": "https://abhaskjha.substack.com/p/the-model-with-no-middle",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/the-informal-economy-already-runs",
           "date": "2026-04-03T04:00:52Z",
           "summary": "The conductor doesn\u2019t announce the stop."
-        },
-        {
-          "title": "What thirty years in four cities taught me about master plans",
-          "url": "https://abhaskjha.substack.com/p/what-thirty-years-in-four-cities",
-          "date": "2026-03-30T08:06:42Z",
-          "summary": "I have lived in Delhi, Washington DC, Singapore, and now Nairobi over the past thirty years."
         }
       ]
     },
