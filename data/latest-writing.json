@@ -1,10 +1,22 @@
 {
-  "updated_at": "2026-05-14T13:04:25.332669Z",
+  "updated_at": "2026-05-15T08:18:18.455670Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "How to Procure an AI Ghost",
+          "url": "https://abhaskjha.substack.com/p/how-to-procure-an-ai-ghost",
+          "date": "2026-05-15T04:00:25Z",
+          "summary": "Essay 1, The Unread Contract"
+        },
+        {
+          "title": "Scaling That Sticks",
+          "url": "https://abhaskjha.substack.com/p/scaling-that-sticks",
+          "date": "2026-05-11T04:01:30Z",
+          "summary": "What housing policy teaches us about what scale actually requires."
+        },
         {
           "title": "Why Your City Government Is the Wrong Size",
           "url": "https://abhaskjha.substack.com/p/why-your-city-government-is-the-wrong",
@@ -28,18 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/algorithmic-austerity-when-algorithms",
           "date": "2026-04-17T04:01:01Z",
           "summary": "What Governments Keep Getting Wrong About AI and Social Protection"
-        },
-        {
-          "title": "Nobody's City",
-          "url": "https://abhaskjha.substack.com/p/nobodys-city",
-          "date": "2026-04-10T04:00:51Z",
-          "summary": "Who's in charge here?"
-        },
-        {
-          "title": "The Informal Economy Already Runs on Voice. The question is who is now listening.",
-          "url": "https://abhaskjha.substack.com/p/the-informal-economy-already-runs",
-          "date": "2026-04-03T04:00:52Z",
-          "summary": "The conductor doesn\u2019t announce the stop."
         }
       ]
     },
