@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-05-29T14:14:55.337082Z",
+  "updated_at": "2026-05-30T09:42:35.123507Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "AI Joins the Turf Wars",
+          "url": "https://abhaskjha.substack.com/p/ai-joins-the-turf-wars",
+          "date": "2026-05-29T04:01:08Z",
+          "summary": "The Unread Contract, Essay No. 2"
+        },
         {
           "title": "How to Procure an AI Ghost",
           "url": "https://abhaskjha.substack.com/p/how-to-procure-an-ai-ghost",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/who-decides-if-your-crop-died",
           "date": "2026-04-24T04:00:55Z",
           "summary": "On the politics of algorithmic truth at the bottom of the income distribution"
-        },
-        {
-          "title": "Algorithmic Austerity: When Algorithms Mistake Poverty for Fraud",
-          "url": "https://abhaskjha.substack.com/p/algorithmic-austerity-when-algorithms",
-          "date": "2026-04-17T04:01:01Z",
-          "summary": "What Governments Keep Getting Wrong About AI and Social Protection"
         }
       ]
     },
