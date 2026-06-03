@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-06-02T15:11:29.097226Z",
+  "updated_at": "2026-06-03T11:38:55.589626Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Why Buildings Fall Down",
+          "url": "https://abhaskjha.substack.com/p/why-buildings-fall-down",
+          "date": "2026-06-03T04:01:34Z",
+          "summary": "The structural causes, the failure mechanisms, and what the evidence says actually works"
+        },
         {
           "title": "AI Joins the Turf Wars",
           "url": "https://abhaskjha.substack.com/p/ai-joins-the-turf-wars",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/the-model-with-no-middle",
           "date": "2026-05-01T04:00:45Z",
           "summary": "Corridors move goods. Arthur Lewis forgot the towns."
-        },
-        {
-          "title": "Who Decides If Your Crop Died",
-          "url": "https://abhaskjha.substack.com/p/who-decides-if-your-crop-died",
-          "date": "2026-04-24T04:00:55Z",
-          "summary": "On the politics of algorithmic truth at the bottom of the income distribution"
         }
       ]
     },
