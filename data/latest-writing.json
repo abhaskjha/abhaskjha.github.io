@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T13:26:22.914955Z",
+  "updated_at": "2026-06-26T13:20:22.145450Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
@@ -48,6 +48,12 @@
       "url": "https://www.linkedin.com/newsletters/india-decoded-7226815406265577473/",
       "items": [
         {
+          "title": "Why Indian Cities Keep Flooding, and What Would Actually Fix It",
+          "url": "https://www.linkedin.com/pulse/why-indian-cities-keep-flooding-what-would-actually-fix-abhas-jha-e3jdf",
+          "date": "2026-06-26T04:00:16.000+00:00",
+          "summary": ""
+        },
+        {
           "title": "How China's EV Industry Grew, and What India Can Draw From It",
           "url": "https://www.linkedin.com/pulse/how-chinas-ev-industry-grew-what-india-can-draw-from-abhas-jha-earie",
           "date": "2026-06-19T04:00:05.000+00:00",
@@ -69,12 +75,6 @@
           "title": "India's Semiconductor Bet: Why Building \"Boring\" Chips Might Be the Smartest Move",
           "url": "https://www.linkedin.com/pulse/indias-semiconductor-bet-why-building-boring-chips-might-abhas-jha-zbchf",
           "date": "2026-03-27T04:00:05.000+00:00",
-          "summary": ""
-        },
-        {
-          "title": "India's AI Heresy: Why the Economic Survey Just Rejected Silicon Valley's Playbook",
-          "url": "https://www.linkedin.com/pulse/indias-ai-heresy-why-economic-survey-just-rejected-silicon-abhas-jha-qzjjf",
-          "date": "2026-02-13T04:00:04.000+00:00",
           "summary": ""
         }
       ]
