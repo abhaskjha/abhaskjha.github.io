@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T13:58:35.906096Z",
+  "updated_at": "2026-07-10T13:18:54.256174Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
@@ -48,6 +48,12 @@
       "url": "https://www.linkedin.com/newsletters/india-decoded-7226815406265577473/",
       "items": [
         {
+          "title": "How the Indian State Buys Technology, and Why It Has to Change",
+          "url": "https://www.linkedin.com/pulse/how-indian-state-buys-technology-why-has-change-abhas-jha-rlyue",
+          "date": "2026-07-10T07:05:53.000+00:00",
+          "summary": ""
+        },
+        {
           "title": "Why Indian Cities Keep Flooding, and What Would Actually Fix It",
           "url": "https://www.linkedin.com/pulse/why-indian-cities-keep-flooding-what-would-actually-fix-abhas-jha-e3jdf",
           "date": "2026-06-26T04:00:16.000+00:00",
@@ -69,12 +75,6 @@
           "title": "What 1992 Promised Indian Cities",
           "url": "https://www.linkedin.com/pulse/what-1992-promised-indian-cities-abhas-jha-owpdf",
           "date": "2026-05-22T04:00:02.000+00:00",
-          "summary": ""
-        },
-        {
-          "title": "India's Semiconductor Bet: Why Building \"Boring\" Chips Might Be the Smartest Move",
-          "url": "https://www.linkedin.com/pulse/indias-semiconductor-bet-why-building-boring-chips-might-abhas-jha-zbchf",
-          "date": "2026-03-27T04:00:05.000+00:00",
           "summary": ""
         }
       ]
