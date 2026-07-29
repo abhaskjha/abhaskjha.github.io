@@ -1,10 +1,28 @@
 {
-  "updated_at": "2026-07-28T13:01:19.616551Z",
+  "updated_at": "2026-07-29T07:31:01.336585Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "The cost of knowing what a city owns has collapsed.",
+          "url": "https://abhaskjha.substack.com/p/the-cost-of-knowing-what-a-city-owns",
+          "date": "2026-07-29T04:00:56Z",
+          "summary": "The cost of continuing to know has not."
+        },
+        {
+          "title": "Who Wrote Your Government's AI Contract?",
+          "url": "https://abhaskjha.substack.com/p/who-wrote-your-governments-ai-contract",
+          "date": "2026-07-24T04:00:50Z",
+          "summary": "Governments Are Buying AI They Cannot Show You"
+        },
+        {
+          "title": "One Plastic Bag, Three Urban Crises",
+          "url": "https://abhaskjha.substack.com/p/one-plastic-bag-three-urban-crises",
+          "date": "2026-07-17T08:50:17Z",
+          "summary": "What Mombasa taught me about the hidden machinery of a city"
+        },
         {
           "title": "The ESRI Trap",
           "url": "https://abhaskjha.substack.com/p/the-esri-trap",
@@ -22,24 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/why-buildings-fall-down",
           "date": "2026-06-03T04:01:34Z",
           "summary": "The structural causes, the failure mechanisms, and what the evidence says actually works"
-        },
-        {
-          "title": "AI Joins the Turf Wars",
-          "url": "https://abhaskjha.substack.com/p/ai-joins-the-turf-wars",
-          "date": "2026-05-29T04:01:08Z",
-          "summary": "The Unread Contract, Essay No. 2"
-        },
-        {
-          "title": "How to Procure an AI Ghost",
-          "url": "https://abhaskjha.substack.com/p/how-to-procure-an-ai-ghost",
-          "date": "2026-05-15T04:00:25Z",
-          "summary": "Essay 1, The Unread Contract"
-        },
-        {
-          "title": "Scaling That Sticks",
-          "url": "https://abhaskjha.substack.com/p/scaling-that-sticks",
-          "date": "2026-05-11T04:01:30Z",
-          "summary": "What housing policy teaches us about what scale actually requires."
         }
       ]
     },
