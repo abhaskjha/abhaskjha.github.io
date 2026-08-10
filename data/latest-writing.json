@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-08-09T11:44:18.336240Z",
+  "updated_at": "2026-08-10T08:53:23.236078Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "The Tax Bill That Never Arrived",
+          "url": "https://abhaskjha.substack.com/p/the-tax-bill-that-never-arrived",
+          "date": "2026-08-05T04:00:36Z",
+          "summary": "Why a decade of property surveys across Africa and South Asia has produced better maps and almost no additional tax."
+        },
         {
           "title": "The cost of knowing what a city owns has collapsed.",
           "url": "https://abhaskjha.substack.com/p/the-cost-of-knowing-what-a-city-owns",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/mogadishu-and-the-invisible-city",
           "date": "2026-06-12T04:01:08Z",
           "summary": "What Africa\u2019s most misunderstood city teaches us about how urban systems actually work"
-        },
-        {
-          "title": "Why Buildings Fall Down",
-          "url": "https://abhaskjha.substack.com/p/why-buildings-fall-down",
-          "date": "2026-06-03T04:01:34Z",
-          "summary": "The structural causes, the failure mechanisms, and what the evidence says actually works"
         }
       ]
     },
