@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-08-20T11:42:21.606157Z",
+  "updated_at": "2026-08-21T07:44:26.637038Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "What Cities Owe Before They Borrow",
+          "url": "https://abhaskjha.substack.com/p/what-cities-owe-before-they-borrow",
+          "date": "2026-08-19T04:00:25Z",
+          "summary": "Municipal debt is a means to an end, not an end in itself."
+        },
         {
           "title": "The Tax Bill That Never Arrived",
           "url": "https://abhaskjha.substack.com/p/the-tax-bill-that-never-arrived",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/the-esri-trap",
           "date": "2026-06-17T04:01:12Z",
           "summary": "When the Vendor Leaves, So Does the Map"
-        },
-        {
-          "title": "Mogadishu and the Invisible City",
-          "url": "https://abhaskjha.substack.com/p/mogadishu-and-the-invisible-city",
-          "date": "2026-06-12T04:01:08Z",
-          "summary": "What Africa\u2019s most misunderstood city teaches us about how urban systems actually work"
         }
       ]
     },
