@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-08-26T11:44:27.855820Z",
+  "updated_at": "2026-08-27T09:57:56.587965Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "The Five Asymmetries of AI Procurement",
+          "url": "https://abhaskjha.substack.com/p/the-five-asymmetries-of-ai-procurement",
+          "date": "2026-08-26T08:58:20Z",
+          "summary": "Why governments cannot buy AI the way they buy roads, and what to write into the contract instead."
+        },
         {
           "title": "What Cities Owe Before They Borrow",
           "url": "https://abhaskjha.substack.com/p/what-cities-owe-before-they-borrow",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/one-plastic-bag-three-urban-crises",
           "date": "2026-07-17T08:50:17Z",
           "summary": "What Mombasa taught me about the hidden machinery of a city"
-        },
-        {
-          "title": "The ESRI Trap",
-          "url": "https://abhaskjha.substack.com/p/the-esri-trap",
-          "date": "2026-06-17T04:01:12Z",
-          "summary": "When the Vendor Leaves, So Does the Map"
         }
       ]
     },
