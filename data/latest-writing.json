@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-09-24T15:48:50.535312Z",
+  "updated_at": "2026-09-25T09:06:04.344410Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Turtles All the Way Down",
+          "url": "https://abhaskjha.substack.com/p/turtles-all-the-way-down",
+          "date": "2026-08-28T04:01:55Z",
+          "summary": "Procurement Is Becoming AI Agents Talking to Each Other-Finance Ministries Need to Get Ready"
+        },
         {
           "title": "The Five Asymmetries of AI Procurement",
           "url": "https://abhaskjha.substack.com/p/the-five-asymmetries-of-ai-procurement",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/who-wrote-your-governments-ai-contract",
           "date": "2026-07-24T04:00:50Z",
           "summary": "Governments Are Buying AI They Cannot Show You"
-        },
-        {
-          "title": "One Plastic Bag, Three Urban Crises",
-          "url": "https://abhaskjha.substack.com/p/one-plastic-bag-three-urban-crises",
-          "date": "2026-07-17T08:50:17Z",
-          "summary": "What Mombasa taught me about the hidden machinery of a city"
         }
       ]
     },
