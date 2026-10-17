@@ -18,6 +18,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "latest-writing.json"
 
 SUBSTACK_FEED = "https://abhaskjha.substack.com/feed"
+SUBSTACK_ARCHIVE_API = (
+    "https://abhaskjha.substack.com/api/v1/archive"
+    "?sort=new&search=&offset=0&limit=6"
+)
 SUBSTACK_ARCHIVE = "https://abhaskjha.substack.com/"
 LINKEDIN_NEWSLETTER = "https://www.linkedin.com/newsletters/india-decoded-7226815406265577473/"
 
@@ -52,7 +56,7 @@ def iso_from_rfc822(value: str) -> str:
     return dt.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
-def fetch_substack_items(limit: int = 6) -> list[dict[str, str]]:
+def fetch_substack_feed_items(limit: int = 6) -> list[dict[str, str]]:
     xml_text = fetch(SUBSTACK_FEED)
     root = ET.fromstring(xml_text)
     items = []
@@ -73,6 +77,35 @@ def fetch_substack_items(limit: int = 6) -> list[dict[str, str]]:
             }
         )
     return items
+
+
+def fetch_substack_archive_items(limit: int = 6) -> list[dict[str, str]]:
+    posts = json.loads(fetch(SUBSTACK_ARCHIVE_API))
+    items = []
+    for post in posts[:limit]:
+        description = strip_html(post.get("description") or post.get("subtitle") or "")
+        summary = description[:180].rstrip()
+        if summary and len(description) > 180:
+            summary += "..."
+        items.append(
+            {
+                "title": (post.get("title") or "").strip(),
+                "url": (post.get("canonical_url") or "").strip(),
+                "date": re.sub(
+                    r"\.\d+(?=Z$)", "", (post.get("post_date") or "").strip()
+                ),
+                "summary": summary,
+            }
+        )
+    return items
+
+
+def fetch_substack_items(limit: int = 6) -> list[dict[str, str]]:
+    try:
+        return fetch_substack_feed_items(limit)
+    except Exception as exc:  # noqa: BLE001
+        warn(f"Warning: Substack RSS failed ({exc}). Trying archive API.")
+        return fetch_substack_archive_items(limit)
 
 
 def unique_linkedin_links(html_text: str, limit: int = 6) -> list[str]:
@@ -180,20 +213,26 @@ def main() -> int:
         fallback_items(existing_data, "india_decoded"),
     )
 
+    sources = {
+        "substack": {
+            "title": "The Urban Stack",
+            "url": SUBSTACK_ARCHIVE,
+            "items": substack_items,
+        },
+        "india_decoded": {
+            "title": "India Decoded",
+            "url": LINKEDIN_NEWSLETTER,
+            "items": linkedin_items,
+        },
+    }
+
+    if existing_data.get("sources") == sources:
+        print("No feed content changes.")
+        return 0
+
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-        "sources": {
-            "substack": {
-                "title": "The Urban Stack",
-                "url": SUBSTACK_ARCHIVE,
-                "items": substack_items,
-            },
-            "india_decoded": {
-                "title": "India Decoded",
-                "url": LINKEDIN_NEWSLETTER,
-                "items": linkedin_items,
-            },
-        },
+        "sources": sources,
     }
 
     DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
