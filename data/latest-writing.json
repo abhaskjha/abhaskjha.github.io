@@ -1,10 +1,28 @@
 {
-  "updated_at": "2026-10-16T15:22:07.494692Z",
+  "updated_at": "2026-10-17T07:29:41Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Why is well-designed, sustainable, affordable housing so difficult to deliver?",
+          "url": "https://abhaskjha.substack.com/p/why-is-well-designed-sustainable",
+          "date": "2026-10-09T04:01:59Z",
+          "summary": "A programme can reduce its construction budget by choosing cheaper land while increasing households’ transport costs."
+        },
+        {
+          "title": "Making a Career in Development Finance",
+          "url": "https://abhaskjha.substack.com/p/making-a-career-in-development-finance",
+          "date": "2026-10-02T10:09:04Z",
+          "summary": "Some advice to young professionals"
+        },
+        {
+          "title": "When the Map Changes Hands",
+          "url": "https://abhaskjha.substack.com/p/when-the-map-changes-hands",
+          "date": "2026-09-25T10:30:01Z",
+          "summary": "Data, legibility and the new safeguards problem in fragile states"
+        },
         {
           "title": "Turtles All the Way Down",
           "url": "https://abhaskjha.substack.com/p/turtles-all-the-way-down",
@@ -22,24 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/what-cities-owe-before-they-borrow",
           "date": "2026-08-19T04:00:25Z",
           "summary": "Municipal debt is a means to an end, not an end in itself."
-        },
-        {
-          "title": "The Tax Bill That Never Arrived",
-          "url": "https://abhaskjha.substack.com/p/the-tax-bill-that-never-arrived",
-          "date": "2026-08-05T04:00:36Z",
-          "summary": "Why a decade of property surveys across Africa and South Asia has produced better maps and almost no additional tax."
-        },
-        {
-          "title": "The cost of knowing what a city owns has collapsed.",
-          "url": "https://abhaskjha.substack.com/p/the-cost-of-knowing-what-a-city-owns",
-          "date": "2026-07-29T04:00:56Z",
-          "summary": "The cost of continuing to know has not."
-        },
-        {
-          "title": "Who Wrote Your Government's AI Contract?",
-          "url": "https://abhaskjha.substack.com/p/who-wrote-your-governments-ai-contract",
-          "date": "2026-07-24T04:00:50Z",
-          "summary": "Governments Are Buying AI They Cannot Show You"
         }
       ]
     },
