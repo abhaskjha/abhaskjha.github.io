@@ -100,6 +100,7 @@ img {
 }
 
 .hero,
+.draft-banner,
 .positioning,
 .links-band,
 .section,
@@ -107,6 +108,62 @@ img {
   opacity: 0;
   transform: translateY(18px);
   animation: rise 700ms ease forwards;
+}
+
+.draft-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 20px;
+  padding: 20px 22px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: var(--blue);
+  color: #f8f5ef;
+  box-shadow: 0 14px 36px rgba(15, 37, 55, 0.12);
+}
+
+.draft-banner-copy {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.draft-label {
+  flex: 0 0 auto;
+  margin: 3px 0 0;
+  color: #f0b181;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.draft-banner h2 {
+  margin: 0;
+  font-family: "Newsreader", serif;
+  font-size: 1.72rem;
+  line-height: 1.05;
+}
+
+.draft-banner p:last-child {
+  max-width: 66ch;
+  margin: 7px 0 0;
+  color: rgba(248, 245, 239, 0.76);
+  line-height: 1.5;
+}
+
+.draft-button {
+  flex: 0 0 auto;
+  border-color: rgba(255, 255, 255, 0.34);
+  background: #f8f5ef;
+  color: var(--blue-deep);
+}
+
+.draft-button:hover {
+  border-color: #fff;
+  background: #fff;
 }
 
 .positioning {
@@ -790,6 +847,7 @@ img {
   }
 
   .site-header,
+  .draft-banner,
   .hero,
   .positioning,
   .about-grid,
@@ -805,8 +863,18 @@ img {
   }
 
   .site-header,
+  .draft-banner,
   .site-footer {
     display: grid;
+  }
+
+  .draft-banner-copy {
+    display: grid;
+    gap: 10px;
+  }
+
+  .draft-button {
+    width: 100%;
   }
 
   .site-nav {
