@@ -1,10 +1,22 @@
 {
-  "updated_at": "2026-10-23T15:44:31.713349Z",
+  "updated_at": "2026-10-31T07:58:23.087035Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Introducing Housing the Next Billion",
+          "url": "https://abhaskjha.substack.com/p/introducing-housing-the-next-billion",
+          "date": "2026-10-28T08:26:04Z",
+          "summary": "My work in public administration and international development has taken me to about 40+ countries."
+        },
+        {
+          "title": "The Cheapest Place to Build a State",
+          "url": "https://abhaskjha.substack.com/p/the-cheapest-place-to-build-a-state",
+          "date": "2026-10-21T04:01:12Z",
+          "summary": "Urbanization can build African states faster than anything else on offer, if cities are allowed to keep what they collect."
+        },
         {
           "title": "Why is well-designed, sustainable, affordable housing so difficult to deliver?",
           "url": "https://abhaskjha.substack.com/p/why-is-well-designed-sustainable",
@@ -28,18 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/turtles-all-the-way-down",
           "date": "2026-08-28T04:01:55Z",
           "summary": "Procurement Is Becoming AI Agents Talking to Each Other-Finance Ministries Need to Get Ready"
-        },
-        {
-          "title": "The Five Asymmetries of AI Procurement",
-          "url": "https://abhaskjha.substack.com/p/the-five-asymmetries-of-ai-procurement",
-          "date": "2026-08-26T08:58:20Z",
-          "summary": "Why governments cannot buy AI the way they buy roads, and what to write into the contract instead."
-        },
-        {
-          "title": "What Cities Owe Before They Borrow",
-          "url": "https://abhaskjha.substack.com/p/what-cities-owe-before-they-borrow",
-          "date": "2026-08-19T04:00:25Z",
-          "summary": "Municipal debt is a means to an end, not an end in itself."
         }
       ]
     },
