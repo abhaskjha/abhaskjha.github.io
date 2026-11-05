@@ -910,3 +910,10 @@ img {
     justify-self: start;
   }
 }
+
+.housing-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
