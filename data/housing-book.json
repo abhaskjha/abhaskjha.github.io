@@ -9,14 +9,15 @@
     "pdf": {
       "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
-      "sha256": "8526b145aa8e5d33f07260f86bbc5818d98619ebe26c3304c00e2847b5e23b9b",
-      "bytes": 3978183
+      "sha256": "47aaf03df95d8685d74de988fe0c461c775804758edfbf3b0f8a54a5dd68919b",
+      "bytes": 3971916
     },
     "docx": {
       "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
-      "sha256": "27d3242ef0836ebe05d099507c3a8af1e35e41351bf0217365b32bf7fa320242",
-      "bytes": 1650820
+      "sha256": "1ec505828617ba165a8c7817798ae1446c29544a55c4a80e0c42a2a0fa510e54",
+      "bytes": 1651282
     }
-  }
+  },
+  "revision_note": "Central message clarified: make well-located land ready for housing; enable households to build and improve their homes; pay for essential services and close specific affordability gaps."
 }
