@@ -25,3 +25,13 @@ Static GitHub Pages site for Abhas Jha.
 - It links to `The Urban Stack`, `India Decoded`, LinkedIn, World Bank, and verified publication records available online.
 - The design direction is contemporary and editorial, with Ethan Mollick's public-facing style used as the main reference point.
 - The site now includes an auto-updating feed section for `The Urban Stack` and `India Decoded`, backed by a scheduled GitHub Action.
+
+## Canonical housing book
+
+The November 6, 2026 technical edition of **Housing the Next Billion** is the canonical starting point for future revisions, as designated by the author. The PDF has 316 pages. It supersedes the 307-page November 5 edition; older dated files remain historical copies.
+
+- PDF: `Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf`
+- Editable manuscript: `Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx`
+- Version and file hashes: `data/housing-book.json`
+
+The book remains a draft for comments. Canonical version status does not resolve the provisional Nairobi citation or the remaining evidence qualifications in the manuscript.

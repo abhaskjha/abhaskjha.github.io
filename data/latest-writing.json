@@ -1,10 +1,16 @@
 {
-  "updated_at": "2026-10-31T07:58:23.087035Z",
+  "updated_at": "2026-11-06T06:01:24.739096Z",
   "sources": {
     "substack": {
       "title": "The Urban Stack",
       "url": "https://abhaskjha.substack.com/",
       "items": [
+        {
+          "title": "Who Pays for Africa\u2019s Urban Future?",
+          "url": "https://abhaskjha.substack.com/p/fast-late-and-poor",
+          "date": "2026-11-06T04:00:49Z",
+          "summary": "African cities need reliable revenue and clear authority to turn population growth into accessible jobs."
+        },
         {
           "title": "Introducing Housing the Next Billion",
           "url": "https://abhaskjha.substack.com/p/introducing-housing-the-next-billion",
@@ -34,12 +40,6 @@
           "url": "https://abhaskjha.substack.com/p/when-the-map-changes-hands",
           "date": "2026-09-25T10:30:01Z",
           "summary": "Data, legibility and the new safeguards problem in fragile states"
-        },
-        {
-          "title": "Turtles All the Way Down",
-          "url": "https://abhaskjha.substack.com/p/turtles-all-the-way-down",
-          "date": "2026-08-28T04:01:55Z",
-          "summary": "Procurement Is Becoming AI Agents Talking to Each Other-Finance Ministries Need to Get Ready"
         }
       ]
     },

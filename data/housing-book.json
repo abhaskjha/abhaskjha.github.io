@@ -1,0 +1,22 @@
+{
+  "title": "Housing the Next Billion",
+  "canonical": true,
+  "edition_date": "2026-11-06",
+  "pdf_pages": 316,
+  "status": "Draft for comments",
+  "supersedes": "307-page November 5, 2026 edition",
+  "files": {
+    "pdf": {
+      "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
+      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
+      "sha256": "8526b145aa8e5d33f07260f86bbc5818d98619ebe26c3304c00e2847b5e23b9b",
+      "bytes": 3978183
+    },
+    "docx": {
+      "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
+      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
+      "sha256": "27d3242ef0836ebe05d099507c3a8af1e35e41351bf0217365b32bf7fa320242",
+      "bytes": 1650820
+    }
+  }
+}
