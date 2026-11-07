@@ -4,21 +4,21 @@
   "edition_date": "2026-11-07",
   "pdf_pages": 318,
   "status": "Draft for comments",
-  "supersedes": "Earlier November 7, 2026 handbook files published at commit 3649c893e2ab8e8d9f155bd8d5d6e2f78aabe7cb, and all earlier editions",
+  "supersedes": "Earlier November 7, 2026 whole-book consistency revision at commit 6f2583c3718121e043ddff2cdfcdc7c24f2c8d6e, and all earlier editions",
   "files": {
     "pdf": {
       "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
-      "sha256": "44fb6416656afd7ceb851ac2c04a2e1e764c6e426fc50a46a3a1884284903e40",
-      "bytes": 4022981
+      "sha256": "ec85f95861413fbf06cb89b2fcc7b7d368a60134266975fa651844a0fe9b1c2f",
+      "bytes": 4026362
     },
     "docx": {
       "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
-      "sha256": "52042ef3153656456ca5c4912fb410bd5b061f8111e26aff13d140f935108963",
-      "bytes": 1656369
+      "sha256": "92863b16096684dbbedd653cbdd7274b34e673236abe46ab978b27926377a47d",
+      "bytes": 1656950
     }
   },
-  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit. Ghana trial citations consolidated under R222; duplicate R212 removed. Removed the requested public-construction sentence. Opening, introduction and conclusion sharpened to prioritise land, services and finance, with direct building conditional on well-located public land and delivery capacity. Whole-book consistency revision: 44 targeted paragraph edits across all 16 chapters apply land, services and household finance to practical decisions and transfer lessons. Evidence and direct-building qualifications retained; 318 pages, cover and design preserved.",
-  "revision_id": "2026-11-07-land-services-finance-consistency"
+  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit. Ghana trial citations consolidated under R222; duplicate R212 removed. Removed the requested public-construction sentence. Opening, introduction and conclusion sharpened to prioritise land, services and finance, with direct building conditional on well-located public land and delivery capacity. Whole-book consistency revision: 44 targeted paragraph edits across all 16 chapters apply land, services and household finance to practical decisions and transfer lessons. Evidence and direct-building qualifications retained; 318 pages, cover and design preserved. Bottom-50-percent revision: 51 targeted paragraph edits define the lower half of the income distribution and apply it across all 16 chapters and eight appraisal tests, with separate attention to the poorest households. Source-specific income groups and programme rules retained. Includes 23 bold-summary formatting fixes; cover, design and 318-page pagination preserved.",
+  "revision_id": "2026-11-07-bottom-50-percent"
 }
