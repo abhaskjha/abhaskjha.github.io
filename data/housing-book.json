@@ -1,23 +1,23 @@
 {
   "title": "Housing the Next Billion: A Practitioner's Handbook",
   "canonical": true,
-  "edition_date": "2026-11-06",
-  "pdf_pages": 316,
+  "edition_date": "2026-11-07",
+  "pdf_pages": 318,
   "status": "Draft for comments",
-  "supersedes": "307-page November 5, 2026 edition",
+  "supersedes": "316-page November 6, 2026 handbook, including its November 7 consistency revision",
   "files": {
     "pdf": {
-      "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
-      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.pdf",
-      "sha256": "0f5e0d958a11c1eb61dd7b9c0df4979203b85c478febfdeb33f776b9b142bf6f",
-      "bytes": 3986131
+      "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
+      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
+      "sha256": "2d43431ae1a32bdb8034d815a8c985115157f7d6bd86f00bf5e273a4971afac8",
+      "bytes": 4019037
     },
     "docx": {
-      "filename": "Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
-      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Revised_Technical_Edition_2026-11-06.docx",
-      "sha256": "b16bb7073c6ddb35101e55e164cc4bca991f067b44be1919680075ceb8eceb56",
-      "bytes": 1651697
+      "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
+      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
+      "sha256": "1134c2a46d8858eed59b3ada2172d2cea8b41881a186d0d23906a4e7305b092b",
+      "bytes": 1655656
     }
   },
-  "revision_note": "Chapter-wide consistency revision, November 7, 2026: 38 targeted revisions across all 16 chapters and appraisal tools connect usable land, household building and improvement, and funded services and specific affordability gaps. Adds A Practitioner's Handbook subtitle; retains evidence qualifications and the 316-page layout."
+  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit."
 }
