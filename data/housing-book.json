@@ -9,15 +9,15 @@
     "pdf": {
       "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
-      "sha256": "2d43431ae1a32bdb8034d815a8c985115157f7d6bd86f00bf5e273a4971afac8",
-      "bytes": 4019037
+      "sha256": "9ebc0741aa671c9424982287127f0e406a1f72eada5fd3da0319b344cbeb1119",
+      "bytes": 4018286
     },
     "docx": {
       "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
       "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
-      "sha256": "1134c2a46d8858eed59b3ada2172d2cea8b41881a186d0d23906a4e7305b092b",
-      "bytes": 1655656
+      "sha256": "403daf35ed3a1fa7e5f480e610a630d3973a61a61b6c2162d52463018e25b28e",
+      "bytes": 1655588
     }
   },
-  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit."
+  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit. Ghana trial citations consolidated under R222; duplicate R212 removed. Removed the requested public-construction sentence."
 }
