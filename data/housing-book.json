@@ -1,5 +1,5 @@
 {
-  "title": "Housing the Next Billion: Technology, Land, Finance, Politics and the Making of Affordable Cities",
+  "title": "Housing the Next Billion: A Practitioner's Handbook",
   "canonical": true,
   "edition_date": "2026-11-14",
   "corrected_edition_date": "2026-11-05",
@@ -8,15 +8,15 @@
   "tables": 86,
   "status": "Draft for comments",
   "supersedes": "Previous canonical edition at commit e05e43563dee18682f49535a9ad28defb1d19352; earlier editions retained in Git history",
-  "revision_id": "2026-11-14-cover-restored",
-  "revision_note": "Author-designated canonical source for subsequent revisions. Original downloaded PDF and editable DOCX published unchanged. Lessons through Masterclass 48; four cross-chapter placement corrections and clarified evidence standards. Some original lesson PDFs remain unavailable for full source reconciliation. Publication verification is structural and sampled visual review, not a new claim-by-claim evidence audit. Cover restoration: original illustrated cover recovered from Git history, date updated to 14 November 2026, replacing only PDF page 1. All 443 interior pages and navigation unchanged. Editable DOCX remains the original manuscript with its plain title page. Preserve this illustrated PDF cover in subsequent exports.",
+  "revision_id": "2026-11-14-cover-subtitle-restored",
+  "revision_note": "Author-designated canonical source for subsequent revisions. Original downloaded PDF and editable DOCX published unchanged. Lessons through Masterclass 48; four cross-chapter placement corrections and clarified evidence standards. Some original lesson PDFs remain unavailable for full source reconciliation. Publication verification is structural and sampled visual review, not a new claim-by-claim evidence audit. Cover restoration: original illustrated cover recovered from Git history, date updated to 14 November 2026, replacing only PDF page 1. All 443 interior pages and navigation unchanged. Editable DOCX remains the original manuscript with its plain title page. Preserve this illustrated PDF cover in subsequent exports. Cover subtitle restored to A Practitioner's Handbook; interior pages unchanged.",
   "files": {
     "pdf": {
       "filename": "housing-the-next-billion-discussion-edition.pdf",
       "source_filename": "Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.pdf",
       "url": "https://abhaskjha.github.io/housing-the-next-billion-discussion-edition.pdf",
-      "sha256": "d7f8cb550d34b87d342e9279a4b40a8ca5e7843d061ecd992b37668db15e33ea",
-      "bytes": 5480456
+      "sha256": "c58b42f9047a436738a53750d40cd890dd0c5c71dca96b16e1fb5a72fac16911",
+      "bytes": 5510887
     },
     "docx": {
       "filename": "Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx",

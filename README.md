@@ -28,7 +28,7 @@ Static GitHub Pages site for Abhas Jha.
 
 ## Canonical housing book
 
-The **14 November 2026** cumulative edition of **Housing the Next Billion: Technology, Land, Finance, Politics and the Making of Affordable Cities** is the author-designated canonical source for all subsequent book revisions. It contains 444 pages, 25 chapters and 86 editable tables. Use this edition rather than the earlier November 7 practitioner’s handbook. Earlier editions remain in Git history.
+The **14 November 2026** cumulative edition of **Housing the Next Billion: A Practitioner’s Handbook** is the author-designated canonical source for all subsequent book revisions. It contains 444 pages, 25 chapters and 86 editable tables. Use this edition rather than the earlier November 7 practitioner’s handbook. Earlier editions remain in Git history.
 
 - PDF: `housing-the-next-billion-discussion-edition.pdf`
 - Editable manuscript: `Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx`
