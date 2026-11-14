@@ -1,24 +1,29 @@
 {
-  "title": "Housing the Next Billion: A Practitioner's Handbook",
+  "title": "Housing the Next Billion: Technology, Land, Finance, Politics and the Making of Affordable Cities",
   "canonical": true,
-  "edition_date": "2026-11-07",
-  "pdf_pages": 318,
+  "edition_date": "2026-11-14",
+  "corrected_edition_date": "2026-11-05",
+  "pdf_pages": 444,
+  "chapters": 25,
+  "tables": 86,
   "status": "Draft for comments",
-  "supersedes": "Earlier November 7, 2026 whole-book consistency revision at commit 6f2583c3718121e043ddff2cdfcdc7c24f2c8d6e, and all earlier editions",
+  "supersedes": "Previous canonical edition at commit e05e43563dee18682f49535a9ad28defb1d19352; earlier editions retained in Git history",
+  "revision_id": "2026-11-14-cumulative-working-edition",
+  "revision_note": "Author-designated canonical source for subsequent revisions. Original downloaded PDF and editable DOCX published unchanged. Lessons through Masterclass 48; four cross-chapter placement corrections and clarified evidence standards. Some original lesson PDFs remain unavailable for full source reconciliation. Publication verification is structural and sampled visual review, not a new claim-by-claim evidence audit.",
   "files": {
     "pdf": {
-      "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
-      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf",
-      "sha256": "ec85f95861413fbf06cb89b2fcc7b7d368a60134266975fa651844a0fe9b1c2f",
-      "bytes": 4026362
+      "filename": "housing-the-next-billion-discussion-edition.pdf",
+      "source_filename": "Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.pdf",
+      "url": "https://abhaskjha.github.io/housing-the-next-billion-discussion-edition.pdf",
+      "sha256": "6f77b4e476b01581caae3737dc7184d915ab4b6c6b0f42afe5cf9fedcf6efc55",
+      "bytes": 4888944
     },
     "docx": {
-      "filename": "Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
-      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx",
-      "sha256": "92863b16096684dbbedd653cbdd7274b34e673236abe46ab978b27926377a47d",
-      "bytes": 1656950
+      "filename": "Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx",
+      "source_filename": "Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx",
+      "url": "https://abhaskjha.github.io/Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx",
+      "sha256": "2f0bc0490b0e5cb2763e734bc2078e6bdee0bfffcf22184d43332f5374dc7004",
+      "bytes": 1224148
     }
-  },
-  "revision_note": "November 7 reviewer revision: conditional diagnosis-first thesis, six-part structure, revised chapter links and conclusion, enabling-markets lineage, TOKI record and illustrative route comparison. Remaining source and evidence qualifications are explicit. Ghana trial citations consolidated under R222; duplicate R212 removed. Removed the requested public-construction sentence. Opening, introduction and conclusion sharpened to prioritise land, services and finance, with direct building conditional on well-located public land and delivery capacity. Whole-book consistency revision: 44 targeted paragraph edits across all 16 chapters apply land, services and household finance to practical decisions and transfer lessons. Evidence and direct-building qualifications retained; 318 pages, cover and design preserved. Bottom-50-percent revision: 51 targeted paragraph edits define the lower half of the income distribution and apply it across all 16 chapters and eight appraisal tests, with separate attention to the poorest households. Source-specific income groups and programme rules retained. Includes 23 bold-summary formatting fixes; cover, design and 318-page pagination preserved.",
-  "revision_id": "2026-11-07-bottom-50-percent"
+  }
 }

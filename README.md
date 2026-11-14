@@ -28,10 +28,10 @@ Static GitHub Pages site for Abhas Jha.
 
 ## Canonical housing book
 
-The November 7, 2026 edition of **Housing the Next Billion: A Practitioner’s Handbook** is the author-designated canonical starting point for future revisions. The PDF has 318 pages. This revision explicitly defines the bottom 50 percent and applies the focus across all 16 chapters and eight appraisal tests, while preserving source-specific populations. It includes the 23 bold-summary formatting fixes. It supersedes the earlier November 7 files published at commit `6f2583c` and all earlier editions. Verify the revision ID and file hashes in the manifest before future edits; the dated filenames remain unchanged.
+The **14 November 2026** cumulative edition of **Housing the Next Billion: Technology, Land, Finance, Politics and the Making of Affordable Cities** is the author-designated canonical source for all subsequent book revisions. It contains 444 pages, 25 chapters and 86 editable tables. Use this edition rather than the earlier November 7 practitioner’s handbook. Earlier editions remain in Git history.
 
-- PDF: `Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.pdf`
-- Editable manuscript: `Housing_the_Next_Billion_A_Practitioners_Handbook_2026-11-07.docx`
-- Version and file hashes: `data/housing-book.json`
+- PDF: `housing-the-next-billion-discussion-edition.pdf`
+- Editable manuscript: `Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx`
+- Edition identity and SHA-256 file hashes: `data/housing-book.json`
 
-The book remains a draft for comments. Canonical status does not resolve the provisional Nairobi citation, remaining evidence qualifications, or publication-clearance requirements.
+Both files are the original 14 November downloads, published without regeneration or content changes. Verify hashes before further revisions. The book remains a draft for comments; some original Masterclass sources remain unavailable for full reconciliation. Publication checks do not constitute a fresh empirical audit or institutional clearance.
