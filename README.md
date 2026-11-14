@@ -34,4 +34,4 @@ The **14 November 2026** cumulative edition of **Housing the Next Billion: Techn
 - Editable manuscript: `Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx`
 - Edition identity and SHA-256 file hashes: `data/housing-book.json`
 
-Both files are the original 14 November downloads, published without regeneration or content changes. Verify hashes before further revisions. The book remains a draft for comments; some original Masterclass sources remain unavailable for full reconciliation. Publication checks do not constitute a fresh empirical audit or institutional clearance.
+The PDF restores the original illustrated cover with the 14 November date; all 443 interior pages are unchanged from the original download. The DOCX remains the original editable manuscript with its plain title page. Preserve the illustrated PDF cover when publishing subsequent revisions. Verify hashes before further revisions. The book remains a draft for comments; some original Masterclass sources remain unavailable for full reconciliation. Publication checks do not constitute a fresh empirical audit or institutional clearance.
