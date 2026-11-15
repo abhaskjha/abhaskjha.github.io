@@ -28,10 +28,9 @@ Static GitHub Pages site for Abhas Jha.
 
 ## Canonical housing book
 
-The **14 November 2026** cumulative edition of **Housing the Next Billion: A Practitioner’s Handbook** is the author-designated canonical source for all subsequent book revisions. It contains 444 pages, 25 chapters and 86 editable tables. Use this edition rather than the earlier November 7 practitioner’s handbook. Earlier editions remain in Git history.
+**Housing the Next Billion: A Practitioner’s Handbook** — canonical version dated **14 November 2026**, with 444 pages and 25 chapters.
 
-- PDF: `housing-the-next-billion-discussion-edition.pdf`
-- Editable manuscript: `Housing_the_Next_Billion_Corrected_2026-11-05_Updated_2026-11-14.docx`
-- Edition identity and SHA-256 file hashes: `data/housing-book.json`
+- Public PDF: `housing-the-next-billion-discussion-edition.pdf`
+- Version and SHA-256 file hash: `data/housing-book.json`
 
-The PDF restores the original illustrated cover with the 14 November date; all 443 interior pages are unchanged from the original download. The DOCX remains the original editable manuscript with its plain title page. Preserve the illustrated PDF cover when publishing subsequent revisions. Verify hashes before further revisions. The book remains a draft for comments; some original Masterclass sources remain unavailable for full reconciliation. Publication checks do not constitute a fresh empirical audit or institutional clearance.
+Preserve the illustrated cover and subtitle in future publications. Editable manuscripts are not distributed on the website. The book remains a draft for comments.
