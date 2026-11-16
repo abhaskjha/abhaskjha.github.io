@@ -2,7 +2,7 @@
   "title": "Housing the Next Billion: A Practitioner's Handbook",
   "canonical": true,
   "edition_date": "2026-11-16",
-  "pdf_pages": 325,
+  "pdf_pages": 334,
   "chapters": 16,
   "tables": 49,
   "status": "Draft for comments",
@@ -10,8 +10,8 @@
     "pdf": {
       "filename": "housing-the-next-billion-discussion-edition.pdf",
       "url": "https://abhaskjha.github.io/housing-the-next-billion-discussion-edition.pdf",
-      "sha256": "e1e83cbf97ecf4de57f8cb5a09c75ef7b4808cfc407487d2064a6f36fe1144b0",
-      "bytes": 4167640
+      "sha256": "29744e55c2deb59c84bc1bd035a549d273ae35207c7bccc1c9ae7e4bff6c269c",
+      "bytes": 4241940
     }
   }
 }
